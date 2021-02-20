@@ -1,4 +1,4 @@
-[Google Colaboratory](https://colab.research.google.com/drive/1iiufzP44ssfgukrRyhcg8DT-Ej71jTn6?usp=sharing)
+[Clink Here to Get Google Colaboratory Link](https://colab.research.google.com/drive/1iiufzP44ssfgukrRyhcg8DT-Ej71jTn6?usp=sharing)
 # Cluster Analysis
 
 ## Introduction
@@ -37,6 +37,9 @@ The datasets that are used to experiment different clustering algorithms are gen
 Each dataset contains 1500 samples with 2 features. Artificial noises have been added. Each
 dataset has been preprocessed using feature scaling before using to the clustering algorithms.[3]
 
+
+![GitHub Logo](https://github.com/wnoyan/Cluster-Analysis/blob/master/images/Figure%201.JPG)
+
 ## Evaluating Metrics
 Different evaluating metrics are used to show the performance of different algorithms on
 different datasets. Silhouette score, Adjusted Rand Index (ARI) score and Normalized Mutual
@@ -57,10 +60,14 @@ blobs* dataset. The results are shown in Figure 2. It shows that all algorithms 
 clustering on it. Partitional clustering approaches such as KMeans and KMedoids perform well
 because cluster shapes are very simple with same density and spherical.
 
+![GitHub Logo](https://github.com/wnoyan/Cluster-Analysis/blob/master/images/Figure%202.JPG)
+
 Evaluating metrics of KMeans, KMedoids, AGNES, BIRCH and DBSCAN algorithms on
 *sklearn blobs* dataset is shown in Table 1. ARI score and NMI score show that all algorithms
 perform well on this dataset but silhouette score fails to show it. However, the table shows that
 all algorithms perform well on this dataset.
+
+![GitHub Logo](https://github.com/wnoyan/Cluster-Analysis/blob/master/images/Table%201.JPG)
 
 ## Experiment on *Sklearn Moons* Dataset
 KMeans, KMedoids, AGNES, BIRCH and DBSCAN algorithms have been used on *sklearn
@@ -69,9 +76,13 @@ this dataset because it is capable of finding clusters of arbitrary shapes and s
 KMeans, KMedoids, AGNES and BIRCH fail to cluster this dataset because it has complex
 cluster shapes and sizes.
 
+![GitHub Logo](https://github.com/wnoyan/Cluster-Analysis/blob/master/images/Figure%203.JPG)
+
 Evaluating metrics of KMeans, KMedoids, AGNES, BIRCH and DBSCAN algorithms on
 *sklearn moons* dataset is shown in Table 2. All the metrics show that DBSCAN performs very
 well on this complex clustering shapes and other algorithms fail.
+
+![GitHub Logo](https://github.com/wnoyan/Cluster-Analysis/blob/master/images/Table%202.JPG)
 
 ## Experiment *on Sklearn* Circles Dataset
 KMeans, KMedoids, AGNES, BIRCH and DBSCAN algorithms have been used on *sklearn
@@ -80,9 +91,13 @@ this dataset because it can perform well on arbitrary shape and size. But the KM
 AGNES and BIRCH fail to cluster this dataset because it has a circle shaped cluster which is
 very complex and these algorithms can’t deal with complex cluster shapes.
 
+![GitHub Logo](https://github.com/wnoyan/Cluster-Analysis/blob/master/images/Figure%204.JPG)
+
 Evaluating metrics of KMeans, KMedoids, AGNES, BIRCH and DBSCAN algorithms on
 *sklearn circles* dataset is shown in Table 3. It shows DBSCAN performs very well and other
 algorithms fail to cluster this dataset.
+
+![GitHub Logo](https://github.com/wnoyan/Cluster-Analysis/blob/master/images/Table%203.JPG)
 
 ## References
 [1]https://scikit-learn.org/stable/modules/clustering.html
